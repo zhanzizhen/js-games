@@ -17,7 +17,7 @@
 **2.粘灰尘游戏**
 
 
-    var i,s,ss=['http://kathack.com/js/kh.js','https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js'];
+    var i,s,ss=['https://zhanzizhen.github.io/js-games/dirty.js','https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js'];
     for(i=0;i<ss.length;i++){
     	s=document.createElement('script');
     	s.src=ss[i];
