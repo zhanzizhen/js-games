@@ -5,7 +5,7 @@
 
       var z = document.createElement('script'); 
       z.type='text/javascript'; document.body.appendChild(z);
-      z.src='http://hi.kickassapp.com/kickass.js'; 
+      z.src='https://zhanzizhen.github.io/js-games/airplane.js'; 
       
 
 将以上粘贴到控制台输出，关掉控制台，静待片刻便有小飞机出现，以下是控制键:
@@ -17,7 +17,7 @@
 **2.粘灰尘游戏**
 
 
-    var i,s,ss=['http://kathack.com/js/kh.js','http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js'];
+    var i,s,ss=['http://kathack.com/js/kh.js','https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js'];
     for(i=0;i<ss.length;i++){
     	s=document.createElement('script');
     	s.src=ss[i];
