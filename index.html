@@ -9,15 +9,12 @@
   <body>
     <div class="" id="app">目前一切ok</div>
     <script>
-      setTimeout(()=>{
-          let cookie = document.cookie;
-          setInterval(() => {
-            if (cookie !== document.cookie) {
-              document.write('cookie 变了');
-              cookie = document.cookie;
-            }
-          }, 200);
-      },10)
+      let cookie = document.cookie;
+      setInterval(() => {
+        if (cookie !== document.cookie) {
+          document.write("有问题，cookie变了");
+        }
+      }, 100);
     </script>
   </body>
 </html>
